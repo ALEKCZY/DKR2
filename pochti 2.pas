@@ -2,7 +2,9 @@
 var s,ss: string;
 var l,ls,i,j: integer;
 var f: boolean;
+ write('Введите строку: ');
  readln(s);
+ write('Введите подстроку: ');
  readln(ss);
  i := 1;
  l := Length(s);
